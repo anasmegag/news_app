@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:football_app/model/Classes.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+
+/*
+changeble test 
+seconde update
+ */
 class Details extends StatelessWidget {
   Details({Key? key, required this.article}) : super(key: key);
 
