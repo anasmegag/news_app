@@ -37,8 +37,8 @@ class Details extends StatelessWidget {
               const SizedBox(
                 height: 30,
 
+//his is bad
 
-                
               ),
               Text(
                 article.description,
