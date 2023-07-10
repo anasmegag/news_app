@@ -10,7 +10,7 @@ seconde update
 class Details extends StatelessWidget {
   Details({Key? key, required this.article}) : super(key: key);
 
-  Article article;
+ final Article article;
   @override
   Widget build(BuildContext context) {
     return Scaffold(

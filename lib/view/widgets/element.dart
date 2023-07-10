@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:football_app/controller/Controll.dart';
 import 'package:football_app/model/Classes.dart';
-import 'package:football_app/view/pages/Article_details.dart';
+
 import 'package:get/get.dart';
 
+// ignore: must_be_immutable
 class Elements extends StatelessWidget {
   Elements({Key? key, required this.article}) : super(key: key);
   Article article;

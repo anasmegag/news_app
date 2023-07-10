@@ -4,8 +4,9 @@ import 'package:football_app/view/widgets/element.dart';
 import 'package:get/get.dart';
 
 import '../../model/Classes.dart';
-import '../../model/Models.dart';
 
+
+// ignore: must_be_immutable
 class SetArticles extends StatelessWidget {
   SetArticles({Key? key, required this.category, required this.country})
       : super(key: key);

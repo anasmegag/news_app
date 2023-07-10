@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:football_app/controller/Controll.dart';
-import 'package:football_app/model/Classes.dart';
 import 'package:football_app/view/pages/HomePage.dart';
 import 'package:get/get.dart';
 
+// ignore: must_be_immutable
 class MyDrawer extends StatelessWidget {
   MyDrawer({Key? key}) : super(key: key);
   Controll c = Get.put(Controll(),permanent: true);

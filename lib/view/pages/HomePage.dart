@@ -12,8 +12,8 @@ class HomePage extends StatelessWidget {
     required this.country
 
   }) : super(key: key);
-  String category;
-  String country;
+final  String category;
+final  String country;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
